@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(6, 12, 83, 0.445);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 50px;
+}
+.quizbox {
+    background-color: white;
+    height: 700px;
+    width: 800px;
+    opacity: 0.7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quest {
+    background-color: rgba(9, 15, 87, 0.596);
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+.quest p, .quest h2, .quest form{
+    margin: 20px;
+}
+#quizForm {
+    color: rgb(255, 255, 255);
+    margin: 50px;
+}
+#btn {
+    height: 50px;
+    width: 100px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgba(6, 12, 83, 0.445);
+    transition: transform 0.2s ease 0.3s, color 0.5s ease-in 0.3s, background-color 0.5s ease 0.3s;
+    font-size: 20px;
+    color: rgb(248, 248, 250);
+}
+#btn:hover {
+    color: rgba(6, 12, 83, 0.445);;
+    background-color: rgb(248, 248, 250);
+    transform: translateY(-15px);
+}
+.goBack {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quidom</title>
+    <link rel="stylesheet" href="Quiz home.css">
+    <script src="Quiz home.js"></script>
+</head>
+<body>
+    <div class="container">
+        <p>Welcome to <span>Quizdom</span></p>
+        </p><button onclick="show()">Lets begin</button></p>
+    </div >
+    <div class="subject" id="subject">
+        <label for="name"><p>What should we call you? </p></label>
+        <input type="text" id="name" min=20 required placeholder="Name">
+        <p>Choose the subject you wanna do</p>
+        <label for="course">Subject:</label>
+        <select id="course">
+            <option value="bu-seng">BU-SENG</option>
+            <option value="math">MATH</option>
+        </select>
+        <p><button onclick="goToQuizPage()">Done</button></p>
+    </div>
+</body>
+</html>

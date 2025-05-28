@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizdom</title>
+    <link rel="stylesheet" href="Quizdom.css">
+    <script src="Quiz home.js"></script>
+</head>
+<body>
+    <div class="quizbox">
+        <div class="quest">
+            <p>Question</p>
+            <h2 id="Load">Question load</h2>
+            <form id="quizForm">
+                <div id="optCont"></div><br>
+                <button type="button" onclick="nextQuestion()" id="btn">Next</button>
+              </form>
+            <p id="score"></p>
+            <div class="goBack">
+                <button id="btn" type="button" onclick="goBack()">Pick subject</button>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
